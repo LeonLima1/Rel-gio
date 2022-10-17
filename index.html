@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Certa</title>
+    <link rel="shortcut icon" href="http://imagenspng.com/wp-content/uploads/icone-relogio-png-Alta-qualidade.png">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aquamarine;
+            color: white;
+            text-align: center;
+        }
+
+        .meio {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="meio">
+            <h1><span>🕗</span> HORA CERTA <span>🕗</span></h1>
+            <h3 id="datas"></h3>
+            <h2>Atualize o site para atualizar a hora!</h2>
+        </div>
+    </div>
+
+
+
+    <script src="/java.js"></script>
+</body>
+
+</html>
